@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PyPartyVisuals</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.2/build/three.min.js"></script>
+</head>
+<body>
+    <h1>PyPartyVisuals</h1>
+    <input type="file" id="fileInput">
+    <select id="visualizationMode">
+        <option value="colorfulStrobe">Colorful Strobe</option>
+        <option value="colorfulBars">Colorful Bars</option>
+        <option value="expandingCircles">Expanding Circles</option>
+        <option value="randomSquares">Random Squares</option>
+    </select>
+    <button onclick="uploadFile()">Upload and Play</button>
+    <button onclick="reloadPage()">Reset</button>
+    <button onclick="toggleFullscreen()">Fullscreen</button>
+    <canvas id="visualizerCanvas"></canvas>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
