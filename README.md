@@ -8,7 +8,7 @@
 - Librosa
 
 ## Usage
-- git clone https://github.com/yourusername/PyPartyVisuals.git
+- git clone https://github.com/michaelsousajr/PyPartyVisuals.git
 - cd PyPartyVisuals
 - pip install -r requirements.txt
 - flask run
