@@ -66,7 +66,7 @@ function playMusicAndSyncVisuals(file, bpm, mode) {
           drawColorfulBars(ctx, canvas.width, canvas.height, bpm);
           break;
         case 'expandingCirles':
-          drawExpandingCircles(ctx, canvas.width, canvas.height, bpm, 1000);
+          drawExpandingCircles(ctx, canvas.width, canvas.height, bpm, 1100);
           break;
         case 'randomSquares':
           drawRandomSquares(ctx, canvas.width, canvas.height, 50);
